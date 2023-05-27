@@ -14,6 +14,7 @@ from flask_cors import CORS
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
+import numpy as np
 
 
 app = Flask(__name__)
